@@ -1,0 +1,42 @@
+run = true
+
+while run == true do
+  print("\n1 for Adding, 2 for subtracting, 3 for multiplying, or 4 for dividing\n")
+  choice = io.read()
+  
+  if choice == "1" then
+    print("Adding: What is the first number?")
+    num = io.read()
+    print("What is the second?")
+    add_num = io.read()
+    print("Adding...")
+    print(num + add_num)
+  end  
+  
+  if choice == "2" then  
+    print("Subtracting: What is the first number?")
+    num = io.read()
+    print("What is the second?")
+    sub_num = io.read()
+    print("Subtracting...")
+    print(num - sub_num)
+  end 
+  
+  if choice == "3" then  
+    print("Multiplying: What is the first number?")
+    num = io.read()
+    print("What is the second?")
+    mult_num = io.read()
+    print("Multiplying...")
+    print(num * mult_num)
+  end
+  
+  if choice == "4" then
+    print("Dividing: What is the first number?")
+    num = io.read()
+    print("What is the second?")
+    div_num = io.read()
+    print("Dividing...")
+    print(num / div_num)
+  end
+end
